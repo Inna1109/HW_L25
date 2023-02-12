@@ -1,0 +1,462 @@
+{
+  "id": "6eca0f0d-c783-4610-89be-f06c101b8c14",
+  "version": "2.0",
+  "name": "HW_L25_Selenium_IDE",
+  "url": "https://rozetka.com.ua",
+  "tests": [{
+    "id": "239e5ce5-f02a-49df-a757-7c0cd0412e7d",
+    "name": "Untitled",
+    "commands": [{
+      "id": "2a9e1369-3c61-49ed-b6b7-0b65dd3b063e",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b261272a-e73d-47ed-b546-258b8e634f7c",
+    "name": "Add_item_to_card_using_the_search_box",
+    "commands": [{
+      "id": "f7829b4d-7f68-4d1f-9140-61bbf7e2aba3",
+      "comment": "",
+      "command": "open",
+      "target": "https://makeup.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f2026c6-17ba-4a8b-917b-279a34810c30",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18019ced-b277-46e5-be96-0b27498fc539",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='search-input']",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c737f70-a20b-4d83-b315-b3b3bb82e7e2",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//form/input",
+      "targets": [],
+      "value": "bioderma sebium"
+    }, {
+      "id": "d40f9e15-098b-4aa2-8db4-d3597e8025eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-button",
+      "targets": [
+        ["css=.search-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6add60bc-a070-44d6-a66f-623961e02be0",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "xpath=//div[5]/ul/li[3]/div",
+      "targets": [
+        ["css=.active > .simple-slider-hover", "css:finder"],
+        ["xpath=//div[5]/ul/li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2bc6215-52e8-4cf3-b62f-529e198dedac",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[3]/div[2]/div/div[3]",
+      "targets": [
+        ["css=.active .simple-slider-list__description", "css:finder"],
+        ["xpath=//li[3]/div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9137ce8e-1d77-4aba-b979-8ba776dc3dcf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[5]/ul/li[3]/div[2]/div[2]/div[2]/div",
+      "targets": [
+        ["css=.active .button", "css:finder"],
+        ["xpath=//div[5]/ul/li[3]/div[2]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8427d14c-1a80-4d98-8d55-e1de2a1aeb0b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li/div[2]/div/div/div[2]",
+      "targets": [
+        ["css=.product__button-increase", "css:finder"],
+        ["xpath=//li/div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bac8173d-0c05-48a4-adbc-9cd75e45fa36",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[5]/div[2]/div",
+      "targets": [
+        ["css=.link", "css:finder"],
+        ["xpath=//div[5]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7347b67e-9af6-4429-8dbc-f8b4ff2ace4a",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "xpath=//span[contains(.,'Кошик(2)')]",
+      "targets": [
+        ["css=.header-basket > span", "css:finder"],
+        ["xpath=//div/div[2]/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Кошик(2)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4118aa27-cc1a-4807-acf5-418b54e1ba91",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Кошик(2)')]",
+      "targets": [
+        ["css=.header-basket > span", "css:finder"],
+        ["xpath=//div/div[2]/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Кошик(2)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1549cc81-e6c8-4c20-ac75-a243f620ecf7",
+    "name": "Invalid_registration_ without_phone_namber",
+    "commands": [{
+      "id": "355dec41-e8a5-4c79-9dbf-6d0828676209",
+      "comment": "",
+      "command": "open",
+      "target": "https://makeup.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9448ca00-d029-47fa-a57d-619852ac6b4a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": " 1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58a2acce-ce97-4c10-87be-10923ffea4d6",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//header/div/div/div[3]/div",
+      "targets": [
+        ["css=.header-top > .layout > div > div", "css:finder"],
+        ["xpath=//header/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "eefebac5-f6a7-47f5-b22b-2e2a66601b71",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//header/div/div/div[3]/div",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63f49fc4-03f6-49b2-8fe6-4d4dd3995454",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Реєстрація",
+      "targets": [
+        ["linkText=Реєстрація", "linkText"],
+        ["css=.auth-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Реєстрація')]", "xpath:link"],
+        ["xpath=//form[@id='form-auth']/div/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/register/')]", "xpath:href"],
+        ["xpath=//form/div/div[2]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Реєстрація')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "5549cbf5-30ff-4ed3-97bb-27e97b0a5756",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Реєстрація",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5505707-abe8-43eb-bb2b-47ba88045406",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=(//button[@type='submit'])[3]",
+      "targets": [
+        ["css=.private-office__row > .button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "dab34f0b-fc95-4a66-bb40-68570556363d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='name']",
+      "targets": [
+        ["id=name", "id"],
+        ["name=first_name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7edcc35-f4ec-4967-8dda-25293209c0a3",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='name']",
+      "targets": [
+        ["id=name", "id"],
+        ["name=first_name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "d2c03298-f03f-4218-9973-b871c4fecbdc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='surname']",
+      "targets": [
+        ["id=surname", "id"],
+        ["name=last_name", "name"],
+        ["css=#surname", "css:finder"],
+        ["xpath=//input[@id='surname']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "901297ea-68f6-4f79-9534-b7731b72f5b2",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='surname']",
+      "targets": [],
+      "value": "test"
+    }, {
+      "id": "53e6fd79-c3ff-4804-9450-e19c9834b13f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='password']",
+      "targets": [
+        ["id=password", "id"],
+        ["name=cust_password1", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2f87a29-390a-476a-9496-109a63ad7550",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='password']",
+      "targets": [],
+      "value": "159*753"
+    }, {
+      "id": "d94ea860-06ee-4cfd-8350-e93b15684799",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='repeat-password']",
+      "targets": [
+        ["id=repeat-password", "id"],
+        ["name=cust_password2", "name"],
+        ["css=#repeat-password", "css:finder"],
+        ["xpath=//input[@id='repeat-password']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40348b4c-32bc-48ab-9173-2055e7f94b35",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='repeat-password']",
+      "targets": [],
+      "value": "159*753"
+    }, {
+      "id": "c42a8ea5-a7f1-4f50-a010-be2e83dbe938",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='email']",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=additional_field_1", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92201923-f432-4aab-bba7-16639b1068eb",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='email']",
+      "targets": [],
+      "value": "test2@gmail.com"
+    }, {
+      "id": "d6f772c9-02fe-4eaf-96a6-2039d6f04c84",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='submit'])[3]",
+      "targets": [
+        ["css=.private-office__row > .button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "afdbeb53-fd29-4d9f-a822-e8ccf22c2268",
+    "name": "Product_filtering_by_manufacturer_and_price",
+    "commands": [{
+      "id": "f7a6666d-b48a-4a85-a705-ed86ab392841",
+      "comment": "",
+      "command": "open",
+      "target": "https://makeup.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53d6537d-eb87-4925-ae8b-bedd3f4673cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d103815-3ca9-4af4-bafa-e69ed0491bce",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.menu-list",
+      "targets": [
+        ["css=.menu-list", "css:finder"],
+        ["xpath=//div[4]/ul", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "20f558a4-cb1c-4afe-9cea-6a1fa5586f3f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//a[contains(text(),'Волосся')]",
+      "targets": [
+        ["linkText=Волосся", "linkText"],
+        ["css=.menu-list__item:nth-child(5) > .menu-list__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Волосся')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/categorys/20272/')]", "xpath:href"],
+        ["xpath=//nav/div[4]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d0469db-a7f6-4c9b-bc0f-7c97e99c4d48",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Сироватки, флюїди для волосся')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c5af058-8fec-449c-9ed1-f81d0befa5d2",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//form[@id='sort-form']",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "658218fe-ee7d-4e13-9203-1dc2be956365",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[contains(.,'L')]",
+      "targets": [
+        ["css=.catalog-alphabet-list__item:nth-child(12) > label", "css:finder"],
+        ["xpath=//div[@id='filter-block-wrap']/div/div/ul/li[12]/label", "xpath:idRelative"],
+        ["xpath=//li[12]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'L')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d682f854-b989-4326-904c-34b12c1c4e89",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=L'Oreal Paris(4)",
+      "targets": [
+        ["linkText=L'Oreal Paris(4)", "linkText"],
+        ["css=#input-checkbox-2243-24165 > a", "css:finder"],
+        ["xpath=//li[@id='input-checkbox-2243-24165']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/brand/24165/')]", "xpath:href"],
+        ["xpath=//li[304]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dca255dc-f673-4654-808f-735a9f587681",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//form",
+      "targets": [
+        ["id=sort-form", "id"],
+        ["css=#sort-form", "css:finder"],
+        ["xpath=//form[@id='sort-form']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "f23a3368-cab5-4ba8-adbb-8943595e648e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-sort-list__item:nth-child(2) > label",
+      "targets": [
+        ["css=.catalog-sort-list__item:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='sort-form']/ul/li[2]/label", "xpath:idRelative"],
+        ["xpath=//li[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'вартістю')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "deb35ddd-2812-4640-84e0-1b9391ca921c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.down",
+      "targets": [
+        ["css=.down", "css:finder"],
+        ["xpath=//form[@id='sort-form']/ul/li[6]/label", "xpath:idRelative"],
+        ["xpath=//li[6]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dfb5b13-32d3-437e-acad-d6739f194f91",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//a[contains(text(),'Сироватка для ослабленого волосся з тенденцією до випадання')]",
+      "targets": [
+        ["css=.active .simple-slider-list__name", "css:finder"],
+        ["xpath=//a[contains(text(),'Сироватка для ослабленого волосся з тенденцією до випадання')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/ua/product/1168933/')])[2]", "xpath:href"],
+        ["xpath=//div[6]/ul/li[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": "30000"
+    }]
+  }],
+  "suites": [{
+    "id": "314dbf07-9859-43dd-b583-1906cef971f5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["239e5ce5-f02a-49df-a757-7c0cd0412e7d"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
